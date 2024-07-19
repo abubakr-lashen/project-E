@@ -1,0 +1,125 @@
+/* Team.css */
+.Team {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .h-5vh {
+    height: 10vh;
+  }
+  
+  .img-Team {
+    position: absolute;
+    z-index: -2;
+    top: 0;
+    width: 100%;
+    height: 140vh;
+    position: relative;
+    background-image: url("./../../../public/uploads/6/text/textandline.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    margin: auto;
+    
+  }
+  
+  .title-Team {
+    text-align: center;
+    font-size: 5rem;
+    color: white;
+    margin-top: 20px;
+  }
+  
+  .img-Team-Content {
+    position: absolute;
+    top: 500px;
+    width: 100%;
+    max-width: 450px; /* Limit the width of the images */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px;
+    transition: .5s;
+    cursor: pointer;
+
+  }
+  .img-Team-Content:hover{
+    transform: scale(1.1);
+    overflow: hidden;
+
+  }
+  /* Media Queries */
+  @media screen and (max-width: 1500px) {
+    .img-Team {
+      width: 80%;
+      height: 120vh;
+      background-size: 90%;
+      ;
+    }
+    .title-Team {
+      font-size: 4rem;
+    }
+    .img-Team-Content {
+      max-width: 350px;
+    }
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .img-Team {
+      width: 100%;
+      height: 120vh;
+      background-size: 100%;
+    }
+    
+    .img-Team-Content {
+      max-width: 300px;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .img-Team {
+      width: 100%;
+      height: 130vh;
+      background-size: 100%;
+    }
+    .title-Team {
+      font-size: 3rem;
+    }
+    .img-Team-Content {
+      max-width: 200px;
+
+    }
+    .Team {
+        width: 100%;
+        height: 120vh;
+        margin: auto;
+        position: relative;
+        overflow: hidden;
+      }
+  }
+  
+  @media screen and (max-width: 650px) {
+    .img-Team {
+      width: 100%;
+      height: 45vh;
+      background-size: 90%;
+    }
+    .title-Team {
+      font-size: 3rem;
+    }
+    .img-Team-Content {
+      max-width: 120px;
+      position: absolute;
+      top: 150px;
+
+    }
+    .Team {
+        width: 100%;
+        height: 100vh;
+        margin: auto;
+        position: relative;
+        overflow: hidden;
+      }
+  }
+  

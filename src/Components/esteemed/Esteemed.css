@@ -1,0 +1,145 @@
+.Esteemed {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+  }
+  
+  .grop-title3 {
+    display: flex;
+   margin: 50px 0px;
+  }
+  
+  
+  .title-dis2{
+    margin-left: 10px;
+    color: white;
+  }
+  .title-dis2 h2{
+font-size: 50px;
+  }
+  .title-dis2 h3{
+    color: #d3b76d ;
+  }
+
+
+.h-5vh{
+    height: 15vh;
+}
+
+
+
+  .slider-container {
+    position: relative;
+    width: 100%;
+ 
+  }
+  
+  .slider-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+  }
+  
+  .slider-button {
+    cursor: pointer;
+    width: 30px;
+    height: auto;
+  }
+  
+  .slider-button.prev {
+    margin-right: 10px;
+  }
+  
+  .slider-button.next {
+    margin-left: 10px;
+  }
+  
+  .slick-slide {
+    transition: opacity 0.3s ease;
+  }
+  
+  .slick-center {
+    opacity: 1 !important;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 1024px) {
+    .slider-button {
+      width: 50px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .slider-button {
+      width: 40px;
+    }
+
+      .grop-title3 {
+        align-items: center;
+      
+      }
+      .prgraf {
+        margin: 30px auto;
+        padding: 0 20px;
+        font-size: 1.2rem;
+        color: white;
+        max-width: 80%;
+        text-align: center;
+      }
+      .title-dis2 h2 {
+        font-size: 7vw; /* Adjust font size for smaller screens */
+      }
+      .title-dis2 h3 {
+        font-size: 3vw; /* Adjust font size for smaller screens */
+      }
+    
+    
+
+  }
+  
+  @media (max-width: 480px) {
+    .slider-button {
+      width: 30px;
+    }
+  }
+  .Esteemed .slick-prev {
+    background-image: url("./../../../public/uploads/4/4.png");
+    left: -250px;
+    background-size: 100%;
+    background-position: center;
+  
+  }
+  
+  .Esteemed .slick-next {
+    background-image: url("./../../../public/uploads/4/3.png");
+    right:-250px;
+    background-size: 100%;
+    background-position: center;
+  
+  }.slick-prev:before,
+  .slick-next:before {
+   display: none;/*  إخفاء الأيقونات الافتراضية */
+  }  .slider-container {
+    width: 100%;
+    /* margin: 0 auto; */
+  }
+  .Esteemed .slide-item  img{
+    width: 400px;
+   }
+.Esteemed .slick-prev,
+.Esteemed  .slick-next {
+     background-size: contain;
+     background-repeat: no-repeat;
+     width: 250px;
+     height: 300px;
+     z-index: 1;
+   }
+   .img-Esteemed{
+    width: 200px;
+   }

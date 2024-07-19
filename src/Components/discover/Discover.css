@@ -1,0 +1,199 @@
+.Discover {
+  width: 100%;
+  overflow: hidden;
+  height: auto;
+}
+
+/* Discover.css */
+.counter-box {
+  width: 22rem;
+  height: 13rem;
+  background-color: #D6C48B;
+  border-radius: 0 0 50px 50px;
+  font-size: 30px;
+  font-weight: 600;
+  color: white;
+  margin: auto;
+}
+
+.btn-RE {
+  width: 350px;
+  margin-top: 20px;
+  height: 50px;
+  border-radius: 20px;
+  background-color: #D6C48B;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border: 1px solid rgb(107, 109, 1);
+}
+
+.btn-RE:hover {
+  background-color: #ad9a5a;
+}
+
+/* تأكد من ضبط الحاويات والمكونات الأخرى بشكل مناسب */
+.body-img {
+  width: 100%;
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-image: url(./../../../public/uploads/2/back-photo.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.h-10vh {
+  height: 35vh;
+}
+
+.h-5vh {
+  height: 8vh;
+}
+
+.grop-title {
+  align-items: center;
+
+  display: flex;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+.title-dis h2 {
+  color: white;
+  font-size: 5vw; /* Responsive font size */
+}
+
+.title-dis h3 {
+  color: #d3b76d;
+  font-size: 2.5vw; /* Responsive font size */
+}
+
+.prgraf {
+  padding: 0 20px;
+  font-size: 1.2rem;
+  color: white;
+  max-width: 600px;
+  margin-left: 20px;
+}
+
+.prgraf p {
+  text-transform: uppercase;
+}
+
+.btn-RE {
+  width: 270px;
+  height: 50px;
+  border-radius: 20px;
+  background-color: #D6C48B;
+  color: white;
+  font-weight: bold;
+  border: 1px solid rgb(107, 109, 1);
+  margin: 10rem 0rem 10rem 10rem;
+  display: block;
+}
+
+.btn-RE:hover {
+  background-color: #ad9a5a;
+}
+
+@media screen and (max-width: 1500px) {
+  .counter-box {
+    width: 16rem;
+    height: 10rem;
+    font-size: 50px;
+  }
+
+  .h-10vh {
+    height: 25vh;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .counter-box {
+    width: 15rem;
+    height: 10rem;
+    font-size: 45px;
+  }
+ 
+  .h-10vh {
+    height: 20vh;
+  }
+  .prgraf {
+    padding: 0 20px;
+    font-size: 2.2rem;
+    color: white;
+    max-width: 80%;
+  }
+  .btn-RE {
+    width: 270px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #D6C48B;
+    color: white;
+    font-weight: bold;
+    border: 1px solid rgb(107, 109, 1);
+    margin: 50px auto;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .counter-box {
+    width: 13rem;
+    height: 8rem;
+    font-size: 55px;
+  }
+  .btn-RE {
+    width: 270px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #D6C48B;
+    color: white;
+    font-weight: bold;
+    border: 1px solid rgb(107, 109, 1);
+    display: block;
+  }
+  .grop-title {
+    align-items: center;
+  
+  }
+  .prgraf {
+    margin: 30px auto;
+    padding: 0 20px;
+    font-size: 1.2rem;
+    color: white;
+    max-width: 80%;
+    text-align: center;
+  }
+  .title-dis h2 {
+    font-size: 9vw; /* Adjust font size for smaller screens */
+  }
+  .title-dis h3 {
+    font-size: 5vw; /* Adjust font size for smaller screens */
+  }
+}
+
+/* Discover.css */
+.counter-box {
+  width: 100%;
+  height: 150px; /* يمكنك تغيير الارتفاع حسب الحاجة */
+  background-color: #D6C48B;
+  border-radius: 0 0 50px 50px;
+  overflow: hidden;
+display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  font-size: 60px;
+  font-weight: 600;
+  color: white;
+}
+
+.counter-box .title {
+  margin-top: 10px;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+/* تأكد من ضبط الحاويات والمكونات الأخرى بشكل مناسب */
