@@ -2,6 +2,7 @@
   width: 100%;
   overflow: hidden;
   height: auto;
+  margin: auto;
 }
 
 /* Discover.css */
@@ -14,6 +15,7 @@
   font-weight: 600;
   color: white;
   margin: auto;
+
 }
 
 .btn-RE {
@@ -62,6 +64,8 @@
 .title-dis h2 {
   color: white;
   font-size: 5vw; /* Responsive font size */
+  text-align: center !important;
+
 }
 
 .title-dis h3 {
@@ -113,7 +117,8 @@
   .counter-box {
     width: 15rem;
     height: 10rem;
-    font-size: 45px;
+    font-size: 35px;
+    text-align: center;
   }
  
   .h-10vh {
@@ -124,6 +129,13 @@
     font-size: 2.2rem;
     color: white;
     max-width: 80%;
+  }
+  .title{
+    font-size: 15px !important;
+    width: 300px;
+    font-weight: 900px !important;
+    margin-bottom: 25px !important;
+
   }
   .btn-RE {
     width: 270px;
@@ -142,7 +154,7 @@
   .counter-box {
     width: 13rem;
     height: 8rem;
-    font-size: 55px;
+    font-size: 55px !important;
   }
   .btn-RE {
     width: 270px;

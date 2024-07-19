@@ -1,6 +1,6 @@
 .Esteemed {
     position: relative;
-    width: 100%;
+    width: 100% !important;
     overflow: hidden;
     height: auto;
   }
@@ -29,35 +29,40 @@ font-size: 50px;
 
 
 
-  .slider-container {
+.slider-container {
     position: relative;
-    width: 100%;
- 
+    width: 100% !important;
+ margin: auto !important;
+  } 
+
+  .img-Esteemed{
+    margin: auto;
   }
-  
   .slider-buttons {
     display: flex;
-    align-items: center;
+    align-items: center !important;
     justify-content: space-between;
     position: absolute;
-    width: 100%;
+    width: 100% !important;
     top: 50%;
     transform: translateY(-50%);
     z-index: 10;
-  }
+    cursor: pointer !important;
+
+  } 
   
   .slider-button {
     cursor: pointer;
-    width: 30px;
+  width: 100px; 
     height: auto;
   }
   
   .slider-button.prev {
-    margin-right: 10px;
+    margin-right: 10px !important;
   }
   
   .slider-button.next {
-    margin-left: 10px;
+    margin-left: 10px !important;
   }
   
   .slick-slide {
@@ -69,13 +74,21 @@ font-size: 50px;
   }
   
   /* Responsive styles */
-  @media (max-width: 1024px) {
+  @media (max-width: 1200px) {
     .slider-button {
-      width: 50px;
+      width: 10px;
     }
+    .img-Esteemed{
+      width:150px !important;
+      margin: auto !important;
+
+     }
   }
   
   @media (max-width: 768px) {
+    .img-Esteemed{
+      width: 150px !important;
+     }
     .slider-button {
       width: 40px;
     }
@@ -105,38 +118,49 @@ font-size: 50px;
   
   @media (max-width: 480px) {
     .slider-button {
-      width: 30px;
+      width: 300px ;
     }
+    .img-Esteemed{
+      width: 150px !important;
+      margin: auto;
+     }
   }
   .Esteemed .slick-prev {
+    width: 100%;
+    height: 300px !important;
+    left:0px !important;
     background-image: url("./../../../public/uploads/4/4.png");
-    left: -250px;
-    background-size: 100%;
+    background-size: cover;
     background-position: center;
-  
+    opacity: 1 !important;
+    z-index: 2 !important;
+
   }
   
   .Esteemed .slick-next {
+    width: 100% ;
+    height: 200px !important;
     background-image: url("./../../../public/uploads/4/3.png");
-    right:-250px;
+    right:0px;
     background-size: 100%;
     background-position: center;
-  
+    opacity: 1 !important;
+
   }.slick-prev:before,
   .slick-next:before {
    display: none;/*  إخفاء الأيقونات الافتراضية */
   }  .slider-container {
     width: 100%;
-    /* margin: 0 auto; */
+    margin: 0 auto;
   }
-  .Esteemed .slide-item  img{
+  /* .Esteemed .slide-item  img{
     width: 400px;
-   }
+   } */
 .Esteemed .slick-prev,
 .Esteemed  .slick-next {
      background-size: contain;
      background-repeat: no-repeat;
-     width: 250px;
+     width: 350px;
      height: 300px;
      z-index: 1;
    }

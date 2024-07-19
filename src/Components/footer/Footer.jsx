@@ -33,7 +33,7 @@ export default function Footer() {
               info@seattle-me.com
                 </Typography>
               </Grid>
-              <Grid item xs={12} md={6}>
+              <Grid item xs={12} md={4} >
                 <Typography variant="h6" className="text-uppercase fw-bold">
              <img className='color-g' src="./uploads/end/text/qu/r.png" alt=""/>
                 Quick Links

@@ -7,13 +7,13 @@ import "./OurProjects.css";
 export default function OurProjects() {
   const settings = {
     centerMode: true,
-    centerPadding: '0',
+    centerPadding: '1',
     slidesToShow: 3,
     focusOnSelect: true,
     infinite: true,
     speed: 600,
     autoplay: true,
-    autoplaySpeed: 1000,
+    autoplaySpeed: 4000,
     beforeChange: (current, next) => {
       document.querySelectorAll('.slick-slide').forEach((slide) => {
         slide.style.opacity = '0.5';
@@ -54,7 +54,7 @@ export default function OurProjects() {
         <div className='h-5vh'></div>
 
         <div className="slider-container">
-          <Slider  {...settings}>
+          <Slider  className='' {...settings}>
             <div className="slide-item">
               <img src="./uploads/3/Ansam.png" alt="Ansam" />
             </div>

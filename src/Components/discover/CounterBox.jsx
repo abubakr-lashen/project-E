@@ -14,14 +14,14 @@ const CounterBox = ({ targetValue, title }) => {
           return targetValue;
         }
       });
-    }, 50); // سرعة العد (كل 50 ميلي ثانية لتغيير الرقم)
+    }, 100); // سرعة العد (كل 50 ميلي ثانية لتغيير الرقم)
 
     return () => clearInterval(interval);
   }, [targetValue]);
 
   return (
     <div className="counter-box">
-      {count}
+    +{count}
       <div className="title">{title}</div>
     </div>
   );
